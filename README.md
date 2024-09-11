@@ -68,5 +68,16 @@ The `calculate_balance` function determines the remaining balance of a loan or i
    monthly_rate = rate / 100 / 12
    ```
 - Converts the annual interest rate to a monthly rate.
-
-
+- Monthly Payment
+   ```python
+   monthly_payment = npf.pmt(monthly_rate, remaining_term, -current_balance)
+   ```
+- Calculates the monthly payment amount based on the remaining balance and rate.
+- Update Balance: Each month:
+   ```python
+   interest_payment = current_balance * monthly_rate
+   principal_payment = monthly_payment - interest_payment
+   current_balance -= principal_payment
+   ```
+- Calculates the interest and principal parts of the payment.
+- Updates the balance by subtracting the principal payment.

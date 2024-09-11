@@ -2,6 +2,37 @@
 
 This project provides a Flask API to calculate the remaining balance of a loan or investment over time, considering varying interest rates.
 
+
+## Folder Structure
+
+- **Root Directory:**
+  - **`.gitignore`**: Specifies files and directories to be ignored by Git.
+  - **`README.md`**: Project documentation.
+  - **`pyproject.toml`**: Poetry configuration file.
+  - **`poetry.lock`**: Poetry lock file for dependency versions.
+
+- **`src/`**: Contains the main source code for your project.
+  - **`__init__.py`**: Marks this directory as a Python package (optional if you need to import modules from this directory).
+  - **`mortgage_rate_comparison_api.py`**: The main script for your Flask API.
+
+- **`tests/`**: Contains test files.
+  - **`__init__.py`**: Marks this directory as a Python package (optional).
+  - **`test_mortgage_rate_comparison_api.py`**: Unit tests for your Flask API.
+
+- **`notebooks/`**: Contains Jupyter notebooks used for exploratory data analysis (EDA) or other analyses.
+  - **`eda.ipynb`**: Your EDA notebook.
+
+- **`docs/`**: (Optional) For additional documentation files, if needed.
+
+## Advantages of This Structure
+
+1. **Separation of Concerns**: Keeps source code, tests, and notebooks in distinct directories, making it easier to manage and navigate the project.
+2. **Scalability**: The structure supports easy expansion if you need to add more source files, tests, or documentation.
+3. **Readability**: Enhances clarity by grouping related files together.
+
+Feel free to adjust the structure based on your project’s needs, but this should provide a solid foundation.
+
+
 ## Code Explanation
 
 ### Imports

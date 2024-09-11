@@ -53,4 +53,5 @@ The `calculate_balance` function determines the remaining balance of a loan or i
 1. **Convert Term to Months**:
    ```python
    term_months = term_years * 12
-
+   ```
+- Converts the total loan term from years to months for calculation.

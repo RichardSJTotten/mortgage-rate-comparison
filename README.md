@@ -81,3 +81,24 @@ The `calculate_balance` function determines the remaining balance of a loan or i
    ```
 - Calculates the interest and principal parts of the payment.
 - Updates the balance by subtracting the principal payment.
+4. **Handle Remaining Months: After all interest rate periods:**:
+   ```python
+   while start_month < term_months and current_balance > 0:
+    interest_payment = current_balance * monthly_rate
+    principal_payment = monthly_payment - interest_payment
+    current_balance -= principal_payment
+    start_month += 1
+   ```
+- Continues to update the balance until the end of the term or the balance reaches zero.
+
+# Summary
+
+The `calculate_balance` function provides a detailed monthly breakdown of the remaining balance for a loan or investment, considering different interest rates over time. 
+
+## Key Points
+
+- **Initial Setup**: The function starts with the initial principal and calculates the total term in months.
+- **Interest Rate Handling**: For each interest rate period, it calculates the monthly payment and updates the balance each month.
+- **Remaining Term**: After processing all specified periods, the function continues to update the balance until the end of the term or the balance reaches zero.
+
+The result is a list of the remaining balances after each month, showing how the balance changes over time with varying interest rates.

@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-import numpy as np
 import numpy_financial as npf
 
 app = Flask(__name__)

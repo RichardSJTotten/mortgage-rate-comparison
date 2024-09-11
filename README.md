@@ -55,3 +55,18 @@ The `calculate_balance` function determines the remaining balance of a loan or i
    term_months = term_years * 12
    ```
 - Converts the total loan term from years to months for calculation.
+2. **Initialise Variables**:
+   ```python
+   current_balance = principal
+   start_month = 0
+   ```
+- **`current_balance`**: starts as the initial amount.
+- **`start_month`**: tracks how many months have passed.
+3. **Calculate Payments for Each Interest Rate Period: For each interest rate and corresponding period:**:
+- Monthly Rate
+   ```python
+   monthly_rate = rate / 100 / 12
+   ```
+- Converts the annual interest rate to a monthly rate.
+
+

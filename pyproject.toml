@@ -11,7 +11,12 @@ python = "^3.12"
 numpy = "^2.1.1"
 numpy-financial = "^1.0.0"
 matplotlib = "^3.9.2"
+flask = "^3.0.3"
+requests = "^2.32.3"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]

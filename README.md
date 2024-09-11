@@ -19,9 +19,6 @@ This project provides a Flask API to calculate the remaining balance of a loan o
   - **`__init__.py`**: Marks this directory as a Python package (optional).
   - **`test_mortgage_rate_comparison_api.py`**: Unit tests for your Flask API.
 
-- **`notebooks/`**: Contains Jupyter notebooks used for exploratory data analysis (EDA) or other analyses.
-  - **`eda.ipynb`**: Your EDA notebook.
-
 - **`docs/`**: (Optional) For additional documentation files, if needed.
 
 ## Advantages of This Structure

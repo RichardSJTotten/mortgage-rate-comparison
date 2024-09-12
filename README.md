@@ -1,6 +1,6 @@
 # Flask API for Balance Calculation
 
-This project provides a Flask API to calculate the remaining balance of a loan or investment over time, considering varying interest rates.
+This project provides a Flask API to calculate the remaining balance of a loan over time, considering varying interest rates.
 
 
 ## Folder Structure
@@ -20,15 +20,6 @@ This project provides a Flask API to calculate the remaining balance of a loan o
   - **`test_mortgage_rate_comparison_api.py`**: Unit tests for your Flask API.
 
 - **`docs/`**: (Optional) For additional documentation files, if needed.
-
-## Advantages of This Structure
-
-1. **Separation of Concerns**: Keeps source code, tests, and notebooks in distinct directories, making it easier to manage and navigate the project.
-2. **Scalability**: The structure supports easy expansion if you need to add more source files, tests, or documentation.
-3. **Readability**: Enhances clarity by grouping related files together.
-
-Feel free to adjust the structure based on your project’s needs, but this should provide a solid foundation.
-
 
 ## Code Explanation
 
